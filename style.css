@@ -37,11 +37,12 @@ nav {
 .nav-items {
     display: flex;
     align-items: center;
-    gap: 100px;
+    gap: 50px;
 }
 
 .nav-items>li {
     list-style: none;
+    margin: 10px 0px;
 }
 
 .nav-items>li>a {
@@ -50,6 +51,15 @@ nav {
     font-size: 18px;
     line-height: 26px;
     color: #424242;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: .4s;
+}
+
+.nav-items>li:hover a {
+    background-color: #fff;
+    color: #000000;
 }
 
 /* banner */
@@ -86,4 +96,40 @@ nav {
 
 .banner-img {
     padding-bottom: 50px;
+}
+
+.banner-img>img {
+    width: 100%;
+}
+
+/* for small devices */
+@media screen and (max-width:576px) {
+    header {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    nav {
+        display: block;
+    }
+
+    .nav-items {
+        display: block;
+    }
+}
+
+/* for medium devices */
+@media screen and (min-width:577px) and (max-width:778px) {
+    header {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    nav {
+        display: block;
+    }
+
+    .nav-items {
+        display: block;
+    }
 }
