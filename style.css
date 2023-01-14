@@ -276,6 +276,36 @@ nav {
     width: 45px;
 }
 
+/* our sponsors section css */
+.sponsors {
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+.sponsors>h2 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    margin-bottom: 24px;
+}
+
+.sponsors>p {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    margin-bottom: 50px;
+}
+
+.sponsors-logo {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
 /* for small devices */
 @media screen and (max-width:576px) {
     header {
@@ -330,6 +360,14 @@ nav {
         gap: 20px;
         justify-content: center;
         align-items: center;
+    }
+
+    .sponsors {
+        padding: 5%;
+    }
+
+    .sponsors-logo {
+        flex-direction: column;
     }
 }
 
@@ -386,6 +424,14 @@ nav {
         gap: 20px;
         justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .sponsors {
+        padding: 5%;
+    }
+
+    .sponsors-logo {
         flex-wrap: wrap;
     }
 }
