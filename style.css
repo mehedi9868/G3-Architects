@@ -154,6 +154,61 @@ nav {
     margin-bottom: 32px;
 }
 
+/* features you will love section css */
+.features-list-section {
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 150px;
+    margin: auto;
+    margin-bottom: 130px;
+
+}
+
+.feature-list-container {
+    width: 50%;
+}
+
+.feature-list-container>.heading {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    margin-bottom: 24px;
+}
+
+.feature-list-container>.details {
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 30px;
+
+}
+
+.feature {
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.sub-heading {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+
+.sub-details {
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
 /* for small devices */
 @media screen and (max-width:576px) {
     header {
