@@ -5,13 +5,22 @@
 }
 
 body {
-    max-width: 1440px;
-    margin: 0 auto;
-    background: rgba(255, 144, 14, 0.1);
     font-family: 'Work Sans', sans-serif;
     border: 1px solid;
 }
+
 /* header section css  */
+header {
+    background: rgba(255, 144, 14, 0.1);
+    padding-top: 50px;
+    margin-bottom: 130px;
+}
+
+.header-container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 /* navigation */
 nav {
     display: flex;
@@ -41,4 +50,40 @@ nav {
     font-size: 18px;
     line-height: 26px;
     color: #424242;
+}
+
+/* banner */
+.banner {
+    text-align: center;
+}
+
+.banner-heading {
+    font-weight: 700;
+    font-size: 4em;
+    line-height: 75px;
+    color: #131313;
+    margin-bottom: 32px;
+}
+
+.banner-details {
+    font-size: 1em;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 32px;
+}
+
+.explore-btn {
+    background-color: coral;
+    font-weight: 600;
+    font-size: 1.5em;
+    line-height: 23px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 24px;
+    margin-bottom: 50px;
+}
+
+.banner-img {
+    padding-bottom: 50px;
 }
