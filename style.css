@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+    background: rgba(255, 144, 14, 0.1);
+    font-family: 'Work Sans', sans-serif;
+    border: 1px solid;
+}
+/* header section css  */
+/* navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-brand {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.nav-items>li {
+    list-style: none;
+}
+
+.nav-items>li>a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #424242;
+}
