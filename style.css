@@ -72,6 +72,7 @@ nav {
     font-size: 4em;
     line-height: 75px;
     color: #131313;
+    margin-top: 100px;
     margin-bottom: 32px;
 }
 
@@ -83,7 +84,7 @@ nav {
 }
 
 .explore-btn {
-    background-color: coral;
+    background-color: #FF900E;
     font-weight: 600;
     font-size: 1.5em;
     line-height: 23px;
@@ -102,6 +103,57 @@ nav {
     width: 100%;
 }
 
+/* features section css */
+.features-section {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 130px;
+}
+
+.img-container {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.img-container img {
+    width: 100%;
+}
+
+.text-container {
+    margin-bottom: 24px;
+}
+
+.text-container .heading {
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+    color: #727272;
+}
+
+.text-container .heading-right,
+.heading-last {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+
+.text-container .heading-last {
+    color: #FF900E;
+}
+
+.text-container .details {
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 32px;
+}
+
 /* for small devices */
 @media screen and (max-width:576px) {
     header {
@@ -115,6 +167,24 @@ nav {
 
     .nav-items {
         display: block;
+    }
+
+    .features-section {
+        flex-direction: column;
+    }
+
+    .img-container {
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+
+    .img-container img {
+        width: auto;
+    }
+
+    .text-container {
+        padding: 5%;
+        margin: 20px auto;
     }
 }
 
@@ -131,5 +201,23 @@ nav {
 
     .nav-items {
         display: block;
+    }
+
+    .features-section {
+        flex-direction: column;
+    }
+
+    .img-container {
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+
+    .img-container img {
+        width: auto;
+    }
+
+    .text-container {
+        padding: 5%;
+        margin: 20px auto;
     }
 }
