@@ -209,6 +209,10 @@ nav {
     color: #727272;
 }
 
+.img-section img {
+    width: 100%;
+}
+
 /* for small devices */
 @media screen and (max-width:576px) {
     header {
@@ -240,6 +244,13 @@ nav {
     .text-container {
         padding: 5%;
         margin: 20px auto;
+    }
+
+    .features-list-section {
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        padding: 5%;
     }
 }
 
@@ -274,5 +285,12 @@ nav {
     .text-container {
         padding: 5%;
         margin: 20px auto;
+    }
+
+    .features-list-section {
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        padding: 5%;
     }
 }
