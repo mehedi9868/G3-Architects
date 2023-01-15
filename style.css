@@ -309,6 +309,85 @@ nav {
     gap: 20px;
 }
 
+/* extra contact us section css */
+.contact-section {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #FFF4E7;
+    padding: 130px 230px;
+    text-align: left;
+    margin-bottom: 130px;
+    border-radius: 10px;
+
+}
+
+.contact-container {
+    display: flex;
+    gap: 120px;
+}
+
+.left-section>h2 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    color: #181818;
+    margin-bottom: 20px;
+
+}
+
+.left-section>p {
+    line-height: 28px;
+    color: #474747;
+    margin-bottom: 30px;
+
+}
+
+.left-section>a {
+    text-decoration: none;
+}
+
+.right-section,
+.left-section {
+    width: 100%;
+}
+
+.right-section>h2 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.right-section input[type=text],
+input[type=email],
+textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
+    font-size: 16px;
+    padding: 30px;
+
+}
+
+.right-section input[type=text],
+input[type=email] {
+    height: 64px;
+}
+
+.btn-submit {
+    background-color: #FF900E;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 18px 35px;
+    border: none;
+}
+
 /* footer section css */
 .footer-section {
     max-width: 1440px;
@@ -316,6 +395,7 @@ nav {
     background-color: #FFF4E7;
     border-radius: 10px;
     padding: 40px;
+    margin-bottom: 50px;
 }
 
 .footer-section p {
@@ -387,6 +467,15 @@ nav {
     .sponsors-logo {
         flex-direction: column;
     }
+
+    .contact-section {
+        padding: 5%;
+    }
+
+    .contact-container {
+        flex-direction: column;
+        gap: 100px;
+    }
 }
 
 /* for medium devices */
@@ -451,5 +540,14 @@ nav {
 
     .sponsors-logo {
         flex-wrap: wrap;
+    }
+
+    .contact-section {
+        padding: 5%;
+    }
+
+    .contact-container {
+        flex-direction: column;
+        gap: 100px;
     }
 }
